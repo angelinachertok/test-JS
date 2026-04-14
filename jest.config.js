@@ -3,5 +3,7 @@ export default {
   testMatch: ['**/tests/**/*.test.js'],
   collectCoverageFrom: ['src/**/*.js'],
   coverageDirectory: 'coverage',
-  verbose: true
+  coverageReporters: ['text', 'lcov', 'html'],
+  verbose: true,
+  transform: {}
 };
