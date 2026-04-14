@@ -1,20 +1,25 @@
 {
   "name": "test-sub-js",
   "version": "1.0.0",
-  "description": "JavaScript test repository template",
-  "main": "src/index.js",
+  "description": "JavaScript calculator with tests — аналог test-Sub на C#",
+  "main": "src/calculator.js",
   "type": "module",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "lint": "eslint src/ tests/"
+    "test:verbose": "jest --verbose"
   },
-  "keywords": ["javascript", "testing", "jest"],
+  "keywords": [
+    "javascript",
+    "calculator",
+    "testing",
+    "jest"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.7.0",
-    "eslint": "^8.57.0"
+    "@types/jest": "^29.5.12"
   }
 }
